@@ -3,7 +3,7 @@ import timeit
 class Solution:
     def twoSum(self, nums, target):
         '''
-        Returns index values of two numbers that add up to the target value
+        Returns index values of 2 numbers that add up to the target value
         :param nums: List
         :param target: Int
         :return: List
