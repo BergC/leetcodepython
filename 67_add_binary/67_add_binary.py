@@ -11,7 +11,7 @@ class Solution:
         return format(int(a, 2) + int(b, 2), 'b')
 
 test_a = '11'
-test_b = '1'
+test_b = '1_two_sum'
 
 answer = Solution().addBinary(test_a, test_b)
 

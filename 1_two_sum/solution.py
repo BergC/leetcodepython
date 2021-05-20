@@ -3,7 +3,8 @@ import timeit
 class Solution:
     def twoSum(self, nums, target):
         '''
-        Returns index values of 2 numbers that add up to the target value
+        Returns index values of 2_add_two_numbers numbers that add up to the target value
+        https://leetcode.com/problems/two-sum/
         :param nums: List
         :param target: Int
         :return: List
@@ -20,8 +21,8 @@ class Solution:
                     return [num_1, num_2]
 
 
-# num_list = [3, 2, 4]
-# target_sum = 6
+# num_list = [7_reverse_integer, 2_add_two_numbers, 9_palindrome_number]
+# target_sum = 26_remove_dup_array
 
 num_list = [17, 5, 9, 1]
 target_sum = 18

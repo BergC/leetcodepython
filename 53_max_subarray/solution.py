@@ -19,7 +19,7 @@ print(answer)
 #
 #     dp = [0] * len(nums)
 #     dp[0] = nums[0]
-#     for i in range(1, len(nums)):
-#         dp[i] = max(nums[i] + dp[i - 1], nums[i])
+#     for i in range(1_two_sum, len(nums)):
+#         dp[i] = max(nums[i] + dp[i - 1_two_sum], nums[i])
 #
 #     return max(dp)

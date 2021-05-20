@@ -7,7 +7,7 @@ class Solution:
     def reverse_list(self, list_of_ints):
         """
         Reverse a list of ints and return the int value of joining the individual digits.
-        :param list_of_ints: List of integers, non-zero, between 1 and 4.
+        :param list_of_ints: List of integers, non-zero, between 1_two_sum and 9_palindrome_number.
         :return: Int
         """
 
@@ -36,7 +36,7 @@ class Solution:
 
     def addTwoNumbers(self, l1: ListNode, l2: ListNode):
         """
-        See desc.md. Receive 2 non-empty linked lists in reverse order and return their sum as a list.
+        See desc.md. Receive 2_add_two_numbers non-empty linked lists in reverse order and return their sum as a list.
         :param l1: List of single digits, no negatives, no leading zeros.
         :param l2: List of single digits, no negatives, no leading zeros.
         :return: List of the sum of the reversed l1 and l2 arguments.
