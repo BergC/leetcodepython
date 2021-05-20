@@ -2,6 +2,7 @@ class Solution:
     def plusOne(self, digits):
         """
         Increment the number derived from joining the integers of a list and return a list of the digits.
+        https://leetcode.com/problems/plus-one/
         :param digits: List of digits
         :return: List of digits
         """
