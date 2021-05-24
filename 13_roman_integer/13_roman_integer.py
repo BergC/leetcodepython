@@ -11,27 +11,32 @@ class Solution:
             'I': 1,
             'IV': 4,
             'V': 5,
-            'IX': 9,
             'X': 10,
-            'XL': 40,
             'L': 50,
-            'XC': 90,
             'C': 100,
-            'CD': 400,
             'D': 500,
-            'CM': 900,
             'M': 1000
         }
 
-        running_total = 0
-
         raw_values = [roman_numerals[char] for char in s]
 
+        running_total = raw_values[0]
+
+        last_value = raw_values[0]
+
+        for curr_value in raw_values[1:]:
+            if curr_value > last_value:
+                running_total -= last_value * 2
+                running_total += curr_value
+            else:
+                running_total += curr_value
+
+            last_value = curr_value
+
+        return running_total
 
 
-
-
-test = 'XIV'
+test = 'MCMXCIV'
 answer = Solution().romanToInt(test)
 
 print(answer)
